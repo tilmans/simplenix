@@ -32,7 +32,7 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
-    i3status dmenu git nodejs xclip terminator
+    i3status dmenu git nodejs xclip terminator firefox atom
   ];
 
   # List services that you want to enable:
